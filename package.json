@@ -1,15 +1,12 @@
 {
   "name": "encryptionapp",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
-    "android": "expo run:android",
-    "ios": "expo run:ios",
-    "web": "expo start --web",
-    "eject": "expo eject",
-    "react-native-run-android": "react-native run-android",
-    "react-native-run-ios": "react-native run-ios"
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
   },
   "dependencies": {
     "@expo/metro-runtime": "~3.2.3",
@@ -37,8 +34,7 @@
     "redux-persist": "^6.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0",
-    "react-native-cli": "^2.0.1"
+    "@babel/core": "^7.20.0"
   },
   "private": true
 }
